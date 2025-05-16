@@ -12,5 +12,14 @@
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {
     "ts-node": "^10.9.2"
+  },
+  "funding": "https://opencollective.com/pnpm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/trusted-deps.git"
+  },
+  "homepage": "https://github.com/pnpm/trusted-deps#readme",
+  "bugs": {
+    "url": "https://github.com/pnpm/trusted-deps/issues"
   }
 }
