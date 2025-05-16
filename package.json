@@ -1,13 +1,17 @@
 {
   "name": "@pnpm/trusted-deps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A list of OSS packages that are known to require lifecycle scripts to function properly",
   "main": "index.js",
-  "files": ["allow.json"],
+  "files": [
+    "allow.json"
+  ],
   "scripts": {
     "update-list": "ts-node updateList.ts"
   },
-  "keywords": ["pnpm-config"],
+  "keywords": [
+    "pnpm-config"
+  ],
   "license": "MIT",
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {
